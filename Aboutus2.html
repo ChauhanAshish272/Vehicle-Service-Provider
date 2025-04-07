@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>QuickFix Automotive</title>
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="Index.html"><img src="css/Images/logo3.jpg"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="closemenu()"></i>
+          <ul>
+            <li><a href="Index2.html">HOME</a></li>
+            <li><a href="Index.html">SIGN OUT</a></li>
+            <li><a href="logout.php">ABOUT US</a></li>
+            <li><a href="Contact.html">CONTACT US</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="openmenu()"></i>
+      </nav>
+     <h1>ABOUT US</h1>
+    </section>
+    <!-- About Us -->
+    <section class="about-us">
+        <div class="Row">
+            <div class="about-col">
+                <p>
+                    At Quickfix Automotive, we're more than just a service station; we're your trusted partner in keeping your vehicles running smoothly. With a passion for automotive excellence and a commitment to customer satisfaction, we've been serving the surrounding communities for 15 years.
+                </p>
+                <h1>OUR STORY</h1>
+                <p>Quickfix Automotive was founded by [Founder's Name] in [Year of Establishment] with a vision to provide top-tier automotive services that combine efficiency, reliability, and affordability. What started as a small, family-owned business has grown into a thriving service station with a loyal customer base.</p>
+                <h1>OUR MISSION</h1>
+                <p>Our mission at Quickfix Automotive is clear: to deliver exceptional automotive solutions that keep your vehicles safe, reliable, and on the road. We understand the importance of your vehicles in your daily life, whether it's for work, family, or leisure. That's why we're dedicated to providing prompt, efficient, and cost-effective services without compromising on quality.</p>
+            </div>
+            <div class="about-col">
+                <img src="css/Images/About_ser.jpg" alt="">
+            </div>
+        </div>
+        <!-- Why choose us? -->
+        <section class="Facilities">
+            <h1>Why Choose Quickfix Automotive?</h1>
+            <div class="Row">
+              <div class="facilities-col">
+                <img src="css/Images/team.jpg" >
+                <h3>EXPERIENCED TEAM</h3>
+                <p>
+                    Our team of certified and skilled technicians brings years of experience to every job. They undergo regular training to stay up-to-date with the latest automotive technologies.
+                </p>
+              </div>
+              <div class="facilities-col">
+                <img src="css/Images/quality.jpg" >
+                <h3>QUALITY SERVICE</h3>
+                <p>
+                    We take pride in our commitment to quality. From routine maintenance to complex repairs, we use the best parts and tools to ensure your vehicle performs at its best.
+                </p>
+              </div>
+              <div class="facilities-col">
+                <img src="css/Images/pricing.jpg" >
+                <h3>TRANSPARENT PRICING</h3>
+                <p>
+                    At Quickfix Automotive, you'll never encounter hidden fees or surprise charges. We provide transparent pricing and detailed estimates before any work begins.
+                </p>
+              </div>
+            </div>
+            </section>
+
+    </section>
+
+
+
+<!-----Footer----->
+
+<section class="footer">
+  <h2>About us</h2>
+  <p>
+    At Quickfix Automotive, we're your trusted partner for all your automotive needs.<br>Our mission is simple: to provide reliable, efficient, and affordable automotive solutions to keep you on the road.
+  </p>
+  <div class="icons">
+    <i class="fa-brands fa-facebook" ></i>
+            <i class="fa-brands fa-instagram" ></i>
+            <i class="fa-brands fa-linkedin" ></i>
+            <i class="fa-brands fa-twitter" ></i>
+  </div>
+</section>
+
+    <!-- Javascript for menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function openmenu(){
+        navLinks.style.right ="0";
+
+      }
+      function closemenu(){
+        navLinks.style.right="-200px";
+      }
+      
+    </script>
+  </body>
+</html>

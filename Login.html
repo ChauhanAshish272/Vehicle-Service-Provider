@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In Form</title>
+    <link rel="stylesheet" href="css/signin.css">
+    <script src="https://kit.fontawesome.com/e5a5c0cb40.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h1 id="title">Sign In</h1>
+            <form   action="login.php" method="post">
+                <div class="input-group">
+                    <div class="input-field" id="namefield">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="name" placeholder="Name" name="name" required>
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" placeholder="Password" name="password" required>
+                    </div>
+                    <p>Forgot password?  <a href="#">click here</a></p>
+                </div>
+                <div class="btn-field">
+                    <button type="submit" id="signupbtn">Sign in</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
